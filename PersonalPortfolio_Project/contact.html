@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="eng"></html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO Meta Tags -->
+  <meta
+    name="description"
+    content="Contact form for a simple HTML-only website for roadmap.sh frontend"
+  />
+  <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
+  <meta name="author" content="Astrid Hernandez" />
+  <title>Contact | Basic HTML Website</title>
+</head>
+<body>
+  <header>
+    Astrid Hernandez
+    <nav>
+      <a href="#home" class="w3-button w3-bar-item">Home</a>
+      <a href="#band" class="w3-button w3-bar-item">Projects</a>
+      <a href="#tour" class="w3-button w3-bar-item">Articles</a>
+      <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h1>Contact Me</h1>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+</body>
