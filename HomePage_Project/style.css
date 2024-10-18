@@ -1,0 +1,70 @@
+.title {
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+.links {
+  margin-left: 65rem;
+  display: inline-block;
+}
+
+.links li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: aqua;
+}
+
+.featured {
+  text-align: center;
+  padding: 5rem;
+}
+
+.projects {
+  display: inline-block;
+  background-color: aqua;
+  padding: 2rem;
+}
+
+.projects section {
+  padding: 1rem;
+}
+
+.midsection {
+  padding: 2rem;
+  text-align: left;
+  display: inline-block;
+  background-color: rgb(177, 131, 219);
+}
+
+.midsection article {
+  padding: 1rem;
+}
+
+.education {
+  display: inline-block;
+  background-color: brown;
+  padding: 2rem;
+  text-align: left;
+}
+
+.reviews {
+  margin-top: 5rem;
+}
+
+.reviews article {
+  background-color: aquamarine;
+  border: 0.1rem;
+  border-color: black;
+  border-style: solid;
+  display: inline-flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 3rem;
+}
+
+footer {
+  margin: 5rem;
+  padding: 5rem;
+}
